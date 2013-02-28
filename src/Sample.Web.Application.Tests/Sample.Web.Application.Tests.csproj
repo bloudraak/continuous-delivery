@@ -97,6 +97,9 @@
     <Compile Include="HomeControllerTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <CodeAnalysisDictionary Include="..\CustomDictionary.xml">
+      <Link>CustomDictionary.xml</Link>
+    </CodeAnalysisDictionary>
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
